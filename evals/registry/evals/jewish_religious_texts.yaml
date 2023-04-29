@@ -1,0 +1,8 @@
+jewish_religious_texts:
+  id: jewish_religious_texts.v0
+  description: Composite task that involves knowledge of Judaism.
+  metrics: [accuracy]
+jewish_religious_texts.v0:
+  class: evals.elsuite.basic.match:Match
+  args:
+    samples_jsonl: jewish_religious_texts/jewish_religious_texts.jsonl
